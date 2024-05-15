@@ -49,7 +49,7 @@ h3{
 p{
     color: rgb(27, 6, 150);
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     font-family: cursive;
 }
 
@@ -133,4 +133,9 @@ form{
 
 #checkbox{
     display: inline-block;
+}
+
+#carouselmel{
+    max-width: 70%;
+    margin-left: 15%;
 }
