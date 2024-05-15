@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <img src="../imagenes/Logo.jpg" class="logo" alt="logo de la empresa">
+        <nav>
+            <ul class="ul_nav">
+                <li>
+                    <a href="../index.html" class="enlace_nav">Inicio</a>
+                </li>
+                <li>
+                    <a href="pasajes.html" class="enlace_nav">Pasajes</a>
+                </li>
+                <li>
+                    <a href="alojamientos.html" class="enlace_nav">Alojamientos</a>
+                </li>
+                <li>
+                    <a href="cruceros.html" class="enlace_nav">Cruceros</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Contactanos, esperamos tu consulta</h1>
+            <h2>Por favor, completá el siguiente formulario y te responderemos a la brevedad:</h2>
+            <form action="form.php" method="post">
+                <label for="">Nombre y Apellido</label>
+                <input type="text" name="nombre_apellido" id="nombre_apellido">
+                <label for="">Correo electrónico</label>
+                <input type="email" name="email" id="email">
+                <label for="">Número de teléfono</label>
+                <input type="tel" name="tel" id="tel">
+                <label for="" class="consulta">Consulta</label>
+                <textarea name="consulta" id="consultar" cols="30" rows="10"></textarea>
+                <label for="">Acepto compartir mis datos personales</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="">Enviar</label>
+                <input type="submit" value="enviar">
+
+            </form>
+
+            <a href="https://www.google.com/maps/@-34.7083485,-58.3928932,3a,75y,299.72h,90t/data=!3m6!1e1!3m4!1s5X0JzAj_wjwAEVAarS-8Pw!2e0!7i16384!8i8192?entry=ttu" target="_blank" class="ubicacion">Ubicación de nuestra oficina comercial</a>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.872142079138!2d-58.3930615!3d-34.708404699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd228d22b30b%3A0xee800eee4c4f1238!2sDTM%2C%20E.%20Del%20Valle%20Iberlucea%203021a%2C%20B1826%20Lan%C3%BAs%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1712450236776!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe1"></iframe>
+        </section>
+    </main>
+    <footer>
+        <ul class="ul_footer">
+            <li class="foot">Facebook: MEL Travel</li>
+            <li class="foot">Instagram: @MEL_Travel</li>
+            <li class="foot">Mail: contacto@meltravel.com.ar</li>
+            <li class="foot">Teléfono: 0-800-888-1234</li>
+            <li class="foot">Dirección: Del Valle Iberlucea 3021, Lanús Oeste</li>
+        </ul>
+    </footer>
+</body>
+</html>
