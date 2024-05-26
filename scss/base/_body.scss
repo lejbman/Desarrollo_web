@@ -1,5 +1,7 @@
+@import "../variables/variables.scss";
+
 body{
-    background-color: #F8F9FA;
+    background-color: $bg-color;
     #carouselmel{
         max-width: 70%;
         margin-left: 15%;
