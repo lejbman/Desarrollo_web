@@ -9,6 +9,10 @@ body{
                 display: inline;
                 margin: 1% 1.5%;
             }
+            .btn-footer {
+                @extend .btn;
+                font-size: 18px;
+              }
         }
     }
 }
