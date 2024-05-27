@@ -1,1 +1,1 @@
-La información corresponde a la segunda pre-entrega del curso de Desarrollo Web de Coderhouse.
+La información corresponde a la tercera pre-entrega del curso de Desarrollo Web de Coderhouse.
