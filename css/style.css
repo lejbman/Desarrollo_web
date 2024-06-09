@@ -129,6 +129,13 @@ body main section .whatsapp:hover {
   transform: rotate(180deg);
 }
 
+.btn, body footer ul .btn-footer {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+}
+
 body footer .ul_footer {
   list-style: none;
   font-family: cursive;

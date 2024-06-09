@@ -1,0 +1,6 @@
+@mixin estilos ($color, $alineado, $size, $fuente){
+    color: $color;
+    text-align: $alineado;
+    font-size: $size;
+    font-family: $fuente;
+}
