@@ -59,38 +59,11 @@ body{
                 margin-left: 30%;
                 margin-top: 30px;
             }
-            .logo_aerolineas{
-                background-image: linear-gradient(to right, blue, rgb(15, 219, 15),yellow);
-                .img_pasajes{
-                    border-color: black;
-                    border-style: groove;
-                    max-width: 8%;
-                    margin: 0.9%;
-                    box-shadow: 17px 15px 30px -3px rgba(61,57,64,0.75);
-                    -webkit-box-shadow: 17px 15px 30px -3px rgba(61,57,64,0.75);
-                    -moz-box-shadow: 17px 15px 30px -3px rgba(61,57,64,0.75);
-                    transform: translateY(15px);
-                }
-            }
-          
-            .crucero{
-                max-width: 12%;
-                border-color: black;
-                border-style: double;
-                margin: 2.75%;
-                text-align: justify;
-            }
-            .hotel{
-                border-color: black;
-                border-style: groove;
-                margin-left: 5%;
-                max-width: 25%;
-            }
             .videos_crucero{
-                margin-left: 12%;
+                margin-left: 16%;
             }
             .videos_pasajes{
-                margin-left: 12%;
+                margin-left: 16%;
                 margin-top: 5%;
             }
             .whatsapp{
@@ -104,6 +77,95 @@ body{
                 transform: rotate(180deg);
             }
     
+        }
+        .grid_container{
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            place-items: center;
+            gap: 20px;
+            margin: 5%;
+            .grid_item_1{
+                background-color: red;
+                border-radius: 5px;
+                img{
+                    width: 95%;
+                    margin: 2%;
+                }
+            }
+            .grid_item_2{
+                background-color: yellow;
+                border-radius: 5px;
+                img{
+                    width: 95%;
+                    margin: 2%;
+                }
+            }
+
+            .grid_item_3{
+                background-color: green;
+                border-radius: 5px;
+                img{
+                    width: 95%;
+                    margin: 2%;
+                }
+            }
+
+            .grid_item_4{
+                background-color: blue;
+                border-radius: 5px;
+                img{
+                    width: 95%;
+                    margin: 2%;
+                }
+            }
+
+            .grid_item_5{
+                background-color: orange;
+                border-radius: 5px;
+                img{
+                    width: 95%;
+                    margin: 2%;
+                }
+            }
+        }
+        .grid_container_1{
+            display: grid;
+            grid-template-columns: repeat(9, 1fr);
+            place-items: center;
+            gap: 15px;
+            background-image: linear-gradient(to right, blue, rgb(15, 219, 15),yellow);
+            .grid_item{
+                margin: 5%;
+                img{
+                    width: 95%;
+                    border-color: black;
+                    border-style: groove;
+                    border-radius: 5px;
+                    box-shadow: 17px 15px 30px -3px rgba(61,57,64,0.75);
+                    -webkit-box-shadow: 17px 15px 30px -3px rgba(61,57,64,0.75);
+                    -moz-box-shadow: 17px 15px 30px -3px rgba(61,57,64,0.75);
+                    transform: translateY(15px);
+                }
+            }
+        }
+        .grid_container_2{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            place-items: center;
+            .grid_item_6{
+                margin: 5%;
+                img{
+                    width: 100%;
+                    border-color: black;
+                    border-style: groove;
+                    border-radius: 5px;
+                    box-shadow: 17px 15px 30px -3px rgba(61,57,64,0.75);
+                    -webkit-box-shadow: 17px 15px 30px -3px rgba(61,57,64,0.75);
+                    -moz-box-shadow: 17px 15px 30px -3px rgba(61,57,64,0.75);
+                    transform: translateY(8px);
+                }
+            }
         }
     }
 }
